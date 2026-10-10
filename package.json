@@ -4,5 +4,6 @@
   "private": true,
   "description": "India VPN dashboard for Render plus WireGuard setup helper for an India VPS",
   "scripts": { "start": "node server.js" },
+  "dependencies": { "socks-proxy-agent": "^8.0.5" },
   "engines": { "node": ">=18" }
 }
